@@ -1,0 +1,55 @@
+html,body {
+  color: #fff;
+  padding-top: 15px;
+}
+.navbar-default {
+  background-color: #fff;
+  color: #cecece;
+  box-shadow: 0 0 4px rgba(0,0,0,.2);
+}
+.navbar-form .form-group input {
+  border-radius: 2px;
+}
+.navbar-form .form-group input:focus {
+  border-color: #2BAAE1;
+}
+.nopad {
+  padding-left: 10px;
+}
+.panel {
+  color: #fff;
+  padding: 10px;
+  background-color: #2BAAE1;
+  position: relative;
+  overflow: hidden;;
+  min-height: 300px;
+  border-radius: 0;
+  width:100%;
+  transition: background-color 0.250s ease;
+}
+.panel:hover {
+    background-color: #fff;
+    border: 1px solid #2BAAE1;
+  }
+.panel:hover > a, .panel:hover > .bot > a, .panel:hover > .bot > i, .panel:hover > .bot > span {
+  color: #2BAAE1;
+}
+.panel > .bot {
+  position: absolute;
+  bottom: 10;
+}
+.panel-link {
+  width:100%;
+  height: 100%;
+}
+@media screen and (max-width: 480px) {
+    h2{
+      font-size: 24px;
+      max-height: 250px;
+      overflow-y: hidden;
+    }
+}
+a, a:hover, a:visited, a:active, a:focus {
+  color: #fff;
+  text-decoration: none;
+}
